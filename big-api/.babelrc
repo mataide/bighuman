@@ -1,0 +1,14 @@
+{
+  "comments": false,
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "8.10"
+      }
+    }],
+    "stage-2"
+  ],
+  "plugins": [
+    "source-map-support"
+  ]
+}

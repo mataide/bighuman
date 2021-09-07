@@ -1,0 +1,43 @@
+{
+  "name": "bighuman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@proak/constants": "^1.2.0",
+    "@proak/dynogels": "^1.0.6",
+    "@proak/lambda-handler": "^1.3.0",
+    "@proak/proak-model": "^3.4.1",
+    "@proak/request-validator": "^1.1.10",
+    "@proak/response": "^1.1.5",
+    "axios": "^0.21.4",
+    "camelcase": "^6.2.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-source-map-support": "^2.1.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^8.1.0",
+    "serverless-webpack": "^5.5.3",
+    "webpack": "^5.52.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mataide@github.com/mataide/bighuman.git"
+  },
+  "author": "Marcus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mataide/bighuman/issues"
+  },
+  "homepage": "https://github.com/mataide/bighuman#readme"
+}
